@@ -18,7 +18,7 @@ const NavBar = () => {
       <nav className="w-full h-18 bg-white z-10 sticky top-0 shadow-xl p-4 flex justify-between items-center">
         <div className="sm:w-3/12 h-10 -mt-4">
           <h1 className="text-3xl font-black text-red-600">SOD</h1>
-          <h1 className="text-3xl cookie text-gray-800  -mt-8">Shop of details</h1>
+          <h1 className="text-3xl font-cookie text-gray-800  -mt-8">Shop of details</h1>
         </div>
         <div className="hidden md:flex w-full items-center justify-between">
           <ul className="flex items-center " >
@@ -51,7 +51,7 @@ const NavBar = () => {
         <div className="bg-white w-full shadow-lg py-2 px-4">
         <div className="sm:w-3/12 h-10">
           <h1 className="text-3xl font-black text-red-600">SOD</h1>
-          <h1 className="text-3xl cookie text-gray-800  -mt-8">Shop of details</h1>
+          <h1 className="text-3xl font-cookie text-gray-800  -mt-8">Shop of details</h1>
         </div>
         <div className="flex flex-wrap w-full items-center justify-between mt-4">
           <ul className="flex flex-wrap items-center " >
