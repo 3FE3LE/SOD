@@ -20,7 +20,7 @@ const NavBar = () => {
           <h1 className="text-3xl font-black text-red-600">SOD</h1>
           <h1 className="text-3xl font-cookie text-gray-800  -mt-8">Shop of details</h1>
         </div>
-        <div className="hidden md:flex w-full items-center justify-between">
+        <div className="hidden lg:flex w-full items-center justify-between">
           <ul className="flex items-center " >
             <li className="px-4 uppercase font-semibold">inicio</li>
             <li className="px-4 uppercase font-semibold">cajas</li>
@@ -42,7 +42,7 @@ const NavBar = () => {
             </svg>
           </div>
         </div>
-        <button onClick={toggleDrawer(true)} className="md:hidden p-2">
+        <button onClick={toggleDrawer(true)} className="lg:hidden p-2">
           <svg className="h-6 text-gray-700" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
