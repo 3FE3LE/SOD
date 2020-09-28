@@ -13,8 +13,12 @@ const Footer = () => {
           <div className="w-full md:w-1/2 flex flex-wrap">
             <div className="w-full xs:w-1/3 h-64 border bg-gray-900 ">
               <div className="h-full w-full flex-wrap flex justify-center items-center  text-transparent opacity-0 transition duration-500 ease-in-out hover:opacity-75 hover:text-gray-800 hover:bg-white">
-                <img className="h-6 w-6 text-gray-900" src="https://simpleicons.org/icons/instagram.svg" alt="" />
-                <p className="font-black w-full text-center" >@shop_of_details</p></div>
+                <div className="h-6 flex justify-center flex-wrap">
+                <img className="w-6 text-gray-900 m-0 bg-center object-cover" src="https://simpleicons.org/icons/instagram.svg" alt="" />
+                <p className="font-black w-full text-center m-0" >@shop_of_details</p>
+                </div>
+                </div>
+                
             </div>
             <div className="w-full xs:w-1/3 h-64 border flex justify-center items-center"><p>@2</p></div>
             <div className="w-full xs:w-1/3 h-64 border flex justify-center items-center"><p>@3</p></div>
