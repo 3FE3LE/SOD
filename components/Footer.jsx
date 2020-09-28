@@ -12,7 +12,9 @@ const Footer = () => {
         <div className="flex flex-wrap w-full">
           <div className="w-full md:w-1/2 flex flex-wrap">
             <div className="w-full xs:w-1/3 h-64 border bg-gray-900 ">
-              <div className="h-full w-full flex justify-center items-center  text-transparent transition duration-500 ease-in-out hover:bg-opacity-75 hover:text-gray-800 hover:bg-white"><p className="font-black" >@shop_of_details</p></div>
+              <div className="h-full w-full flex-wrap flex justify-center items-center  text-transparent opacity-0 transition duration-500 ease-in-out hover:opacity-75 hover:text-gray-800 hover:bg-white">
+                <img className="h-6 w-6 text-gray-900" src="https://simpleicons.org/icons/instagram.svg" alt="" />
+                <p className="font-black w-full text-center" >@shop_of_details</p></div>
             </div>
             <div className="w-full xs:w-1/3 h-64 border flex justify-center items-center"><p>@2</p></div>
             <div className="w-full xs:w-1/3 h-64 border flex justify-center items-center"><p>@3</p></div>
@@ -29,11 +31,15 @@ const Footer = () => {
             <h1 className="text-3xl font-cookie text-gray-800  -mt-8">Shop of details</h1>
             <p className="text-sm sm:pr-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sapiente, architecto neque recusand</p>
             <div className="flex my-2">
-              <div className="h-10 w-10 m-1 rounded-full bg-gray-200 text-gray-700"></div>
-              <div className="h-10 w-10 m-1 rounded-full bg-gray-200 text-gray-700"></div>
-              <div className="h-10 w-10 m-1 rounded-full bg-gray-200 text-gray-700"></div>
-              <div className="h-10 w-10 m-1 rounded-full bg-gray-200 text-gray-700"></div>
-              <div className="h-10 w-10 m-1 rounded-full bg-gray-200 text-gray-700"></div>
+              <div className="h-10 w-10 m-1 rounded-full bg-gray-200 flex justify-center items-center">
+                <img className="h-4" src="https://simpleicons.org/icons/paypal.svg" alt="" />
+              </div>
+              <div className="h-10 w-10 m-1 rounded-full bg-gray-200 flex justify-center items-center">
+                <img className="h-4" src="https://simpleicons.org/icons/mastercard.svg" alt="" />
+              </div>
+              <div className="h-10 w-10 m-1 rounded-full bg-gray-200 flex justify-center items-center">
+                <img className="h-4" src="https://simpleicons.org/icons/visa.svg" alt="" />
+              </div>
             </div>
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 flex justify-around">
@@ -65,11 +71,21 @@ const Footer = () => {
               <input className="py-3 px-4 my-2 font-bold text-sm sm:right-0 sm:mr-1 sm:absolute w-64 sm:w-auto rounded-full bg-red-600 text-white " type="button" value="SUSCRIBETE" />
             </div>
             <div className="flex my-2">
-              <div className="h-10 w-10 m-1 rounded-full bg-gray-200 text-gray-700"></div>
-              <div className="h-10 w-10 m-1 rounded-full bg-gray-200 text-gray-700"></div>
-              <div className="h-10 w-10 m-1 rounded-full bg-gray-200 text-gray-700"></div>
-              <div className="h-10 w-10 m-1 rounded-full bg-gray-200 text-gray-700"></div>
-              <div className="h-10 w-10 m-1 rounded-full bg-gray-200 text-gray-700"></div>
+              <div className="h-10 w-10 m-1 rounded-full bg-gray-200 flex justify-center items-center">
+                <img className="h-4" src="https://simpleicons.org/icons/facebook.svg" alt="" />
+              </div>
+              <div className="h-10 w-10 m-1 rounded-full bg-gray-200 flex justify-center items-center">
+                <img className="h-4" src="https://simpleicons.org/icons/twitter.svg" alt="" />
+              </div>
+              <div className="h-10 w-10 m-1 rounded-full bg-gray-200 flex justify-center items-center">
+                <img className="h-4" src="https://simpleicons.org/icons/youtube.svg" alt="" />
+              </div>
+              <div className="h-10 w-10 m-1 rounded-full bg-gray-200 flex justify-center items-center">
+                <img className="h-4" src="https://simpleicons.org/icons/instagram.svg" alt="" />
+              </div>
+              <div className="h-10 w-10 m-1 rounded-full bg-gray-200 flex justify-center items-center">
+                <img className="h-4" src="https://simpleicons.org/icons/pinterest.svg" alt="" />
+              </div>
             </div>
           </div>
         </div>
@@ -78,6 +94,7 @@ const Footer = () => {
             <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd" />
           </svg> by <span className="font-black mx-1">3FE 3lE</span></p>
         </div>
+
       </div>
     </>
   )
