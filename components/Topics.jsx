@@ -4,7 +4,7 @@ const Topics = () => {
   return (
     <>
       <div className="w-full h-full flex justify-center">
-        <div className="max-w-screen-lg flex flex-wrap justify-between py-24 px-4 w-full h-full">
+        <div className="max-w-screen-xl flex flex-wrap justify-between py-24 px-4 w-full h-full">
           <div className="max-w-xxs">
             <h1 className="uppercase text-2xl font-semibold border-b-2 border-red-600 w-16">Tendencias</h1>
             <div className="flex flex-wrap">

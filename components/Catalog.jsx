@@ -71,7 +71,7 @@ const Catalog = () => {
 
   return (
     <div className="w-full h-full flex justify-center">
-      <div className="max-w-screen-lg w-full h-full">
+      <div className="max-w-screen-xl w-full h-full">
         <nav className="flex flex-wrap justify-between w-full py-16 px-4">
           <h2 className="uppercase font-bold text-2xl border-red-600 border-b-2 mb-8">nuevos productos</h2>
           <ul className="flex flex-wrap">

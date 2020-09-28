@@ -4,7 +4,7 @@ const PromoBanner = () => {
   return (
     <>
       <div className="w-full h-full flex justify-center">
-        <div className="max-w-screen-lg flex flex-wrap justify-center items-stretch  py-20 px-4 w-full h-full">
+        <div className="max-w-screen-xl flex flex-wrap justify-center items-stretch  py-20 px-4 w-full h-full">
           <div className="w-10/12 md:w-1/2 py-48 md:py-0 bg-white bg-center bg-cover" style={{ backgroundImage: "url('https://colorlib.com/preview/theme/ashion/img/discount.jpg')" }}></div>
           <div className="w-10/12 md:w-1/2  py-24 bg-gray-300 flex flex-wrap items-center justify-center">
             <div className="rounded-full h-48 w-48 relative bg-white flex flex-wrap justify-center items-center">
